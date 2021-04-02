@@ -1,0 +1,244 @@
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+button {
+    border: none;
+    padding: 1rem 2rem;
+}
+.carousel-caption{
+	bottom: 50%;
+}
+.carousel-indicators button {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+}
+
+/* hero seach start */
+.hero-areia .carousel-inner .hero-search{
+    display: flex!important;
+    margin: 0 auto;
+    justify-content: center;
+}
+input.form-control.bg-light {
+    border: none;
+}
+.hero-areia .hero-search .btn-light {
+    border: none;
+    margin-left: -6px;
+}
+/* hero seach end */
+/* ----------------------------------
+feature area start
+--------------------------------- */
+.card-body-head img, svg {
+    vertical-align: middle;
+    width: 50px;
+    
+}
+
+.features .tab-area .nav .nav-link {
+    padding: 1rem 3rem;
+
+}
+
+.tab-area>div .nav button{
+    color: gray;
+    text-transform: capitalize;
+}
+.features .tab-area .tab-content .tab-pane .image img{
+    width: 100%;
+}
+.features .tab-area .tab-content .deteils button {
+    border: none;
+}
+.features .tab-area .tab-content .deteils button:last-child {
+    background: none;
+    position: relative;
+}
+.team-area .detail button:after,.features .tab-area .tab-content .deteils button:last-child:after{
+    position: absolute;
+    content: "";
+    width: 10%;
+    height: 2px;
+    background-color: #0D6EFD;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .4s;
+}
+.features .tab-area .tab-content .deteils button:last-child:hover:after{
+    width: 100%;
+}
+/* ----------------------------------
+feature area end
+--------------------------------- */
+
+/* ----------------------------------
+our-team area start
+--------------------------------- */
+.team-area .detail button{
+    background: none;
+    position: relative;
+}
+.team-area .detail button:after{
+    
+}
+.team-area .detail button:hover:after{
+    width: 100%;
+}
+.team-area .card {
+    border: none;
+    }
+.team-member .col {
+    position: relative;
+}
+.team-member .col .member-social{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    background-color: white;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: .4s;
+}
+.team-area .team-member .col:hover .member-social{
+    top: 61%;
+    opacity: 1;
+}
+.team-area ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+}
+
+.team-area ul li {
+    list-style: none;
+    padding: 5px 0;
+}
+
+.team-area ul li a {
+    color: black;
+    padding: 8px 14px;
+}
+/* ----------------------------------
+our-team area end
+--------------------------------- */
+
+
+/* ----------------------------------
+barand-area start
+--------------------------------- */
+.banar-area{
+    background: url('img/brand.jpg');
+}
+/* ----------------------------------
+barand-area end
+--------------------------------- */
+
+
+/* ----------------------------------
+client-area start
+--------------------------------- */
+.client-area .client-bottom .row div{
+    padding: 32px;
+    opacity: .3;
+    transition: .4s;
+}
+.client-area .client-bottom .row div:hover{
+    opacity: 1;
+}
+/* ----------------------------------
+client-area end
+--------------------------------- */
+
+
+/* ----------------------------------
+fotter-area stand
+--------------------------------- */
+.fotter-area ul{
+   margin: 0;
+   padding: 0;
+}
+
+.fotter-area .content li{
+    list-style: none;
+    margin: 17px 0;
+}
+
+.fotter-area .content a,.fotter-area .content p{
+     color: white;
+     text-decoration: none;
+     text-transform: capitalize;
+     font-size: 16px;
+}
+.fotter-area .social-area li{
+    border: 1px solid;
+    padding: 0px;
+    margin-right: 10px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.fotter-area .content a,.fotter-area .content p,.fotter-area .content i{
+    opacity: .5;
+}
+.fotter-area .content a:hover{
+    opacity: 1;
+}
+.fotter-area .content p:hover{
+    opacity: 1;
+}
+.fotter-area .content i:hover{
+    opacity: 1;
+}
+.fotter-area .content .info a{
+    text-decoration: none;
+    color: white;
+}
+.fotter-area .content .social-area li a{
+    padding: 10px;
+    color: white;
+}
+.fotter-area .content .social-area li{
+    transition: .4s;
+}
+.fotter-area .content .social-area li:hover{
+    background-color: #0D6EFD;
+    border: 1px transparent;
+    color: white;
+}
+.fotter-area .content .social-area li a i{
+   padding: 10px 0;
+}
+.fotter-area .content .info i{
+    margin: 5px 10px;
+}
+
+.events .content .text h5{
+    font-size: 17px;
+}
+.sbuscrive .content .form-control,.sbuscrive .content .btn-primary {
+    width: 100%;
+    padding: 1rem .75rem;
+    }
+.fotter-bottom ul li{
+    margin-left: 20px;
+}
+.fotter-bottom ul li a{
+
+    color: white;
+    opacity: .5;
+}
+.fotter-bottom ul li a:hover{
+    opacity: 1;
+}
+/* ----------------------------------
+fotter-area end
+--------------------------------- */
