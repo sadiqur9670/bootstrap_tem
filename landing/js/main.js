@@ -11,6 +11,19 @@ $(document).ready(function(){
     smartSpeed:1000,
     margin: 40,
     center: true,
+}); 
+  $(".client-carosel").owlCarousel({
+    items: 1,
+    loop:true,
+    autoplay: false,
+    nav:true,
+    dots: false,
+    mouseDrag: true,
+    touchDrag: true,
+    autoplayTimeout:5000,
+    smartSpeed:1000,
+    margin: 40,
+    center: true,
 });
 
  
