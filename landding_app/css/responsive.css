@@ -1,0 +1,25 @@
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+  
+  .hero-area .hero-text h2 {
+    font-size: 24pt;
+    font-weight: 500;
+}
+.hero-area .hero-text p {
+    font-size: 16pt;
+    }
+img.second {
+    right: 0;
+    top: 0;
+}
+.testimonial-carosel p {
+    font-size: 13px;
+    padding-top: 1rem;
+    padding-right: 0rem;
+    padding-left: 0rem;
+}
+ul.dropdown-menu li:hover ul.dropdown-submenu {
+    top: 50%;
+    left: 17%;
+}
+}
